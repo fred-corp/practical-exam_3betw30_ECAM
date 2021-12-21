@@ -3,7 +3,7 @@ const app = express()
 const session = require('express-session')
 const routes = require('./routes')
 
-const port = 3000
+const port = 80
 
 app.use(express.urlencoded({ extended: true }))
 app.use(express.static('public'))
