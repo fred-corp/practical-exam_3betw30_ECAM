@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<title>Add Room</title>
+		<meta name="description" content="">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="stylesheet" href="css/style.css">
+	</head>
+	<body>
+		<div id="container">
+			<h1>Encoder les données de la pièce</h1>
+			<form action="/add" method="post">
+				<p>
+					<label for="room_label">Pièce : </label>
+					<input type="text" id="name" name="name">
+				</p>
+				<p>
+					<label for="width_label">Largeur : </label>
+					<input type="number" id="width" name="width" step="1">
+				</p>
+				<p>
+					<label for="length_label">Longueur : </label>
+					<input type="number" id="length" name="length" step="1">
+				</p>
+				<p>
+					<button type="submit">Enregistrer</button>
+				</p>
+			</form>
+			<div id="area-wrapper">
+				<div id="area-button">
+					<button id="compute-area">Calculer la surface</button>
+				</div>
+				<div id="area-text">
+					<p id="area_text"></p>
+				</div>
+			</div>
+		</div>
+		<script type="text/javascript" src="js/area.js"></script>
+	</body>
+</html>

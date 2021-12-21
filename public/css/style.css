@@ -1,0 +1,68 @@
+body {
+  width: 500px;
+  font-family: Arial;
+  font-size: 12px;
+  border: 1px lightgray solid;
+  padding: 10px;
+}
+
+button {
+  background-color: steelblue;
+  color: white;
+  margin: 10px;
+  padding: 10px;
+}
+
+form {
+  display: table;
+}
+
+p {
+  display: table-row;
+}
+
+label {
+  display: table-cell;
+}
+
+input {
+  display: table-cell;
+}
+
+table {
+  width: 100%;
+}
+
+ul{
+  list-style-type: none;
+  padding: 5px;
+}
+
+li {
+  margin: 2px;
+  padding: 5px;
+}
+
+#room {
+  background-color: lightgray;
+}
+
+#total-area {
+  background-color: lightblue;
+}
+
+#area-wrapper {
+  width: 100%;
+  overflow: hidden;
+}
+
+#area-button {
+  float:left;
+}
+
+#area-text{
+  overflow: hidden;
+  text-align: center;
+  padding: 10px;
+  margin: 10px;
+}
